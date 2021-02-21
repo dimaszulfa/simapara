@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "15243817154",
+    "firebase_url": "https://simapara-43085.firebaseio.com",
+    "project_id": "simapara-43085",
+    "storage_bucket": "simapara-43085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15243817154:android:e2018f516fe190c2ed0b5b",
+        "android_client_info": {
+          "package_name": "com.dimas.simapara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15243817154-8hdtnhuk7arr5kk0s1r2gnm3esdqqck8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dimas.simapara",
+            "certificate_hash": "bbac0ba46c10750929948ff2314a277c06b59aad"
+          }
+        },
+        {
+          "client_id": "15243817154-dim1sn4sftdc2vcspss1fkh0eil4o3f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-VBTs--3pcgaJk3UCKGEY0zugDhtluPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15243817154-dim1sn4sftdc2vcspss1fkh0eil4o3f1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

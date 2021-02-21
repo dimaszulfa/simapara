@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewActivity">
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/input_search"
+        android:drawableRight="@drawable/ic_search"
+        android:hint="Cari Data Disini..."
+        android:paddingLeft="20dp"
+        android:paddingTop="8dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="8dp"
+        android:singleLine="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/inputSearch" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/filterSpinner"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_spinner"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/filter"
+                android:textAlignment="center"></Spinner>
+
+            <Button
+                android:id="@+id/closeFilter"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_spinner"
+                android:elevation="100dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="Reset"></Button>
+            <!--        <Button                 android:background="@drawable/btn_float_right"
+-->
+            <!--            android:foreground="?attr/selectableItemBackground"-->
+            <!--            android:layout_width="150dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:text="Filter"-->
+            <!--            android:drawableLeft="@drawable/ic_filter"-->
+            <!--            android:background="@drawable/btn_float"-->
+            <!--            />-->
+            <!--        <Button-->
+            <!--            android:foreground="?attr/selectableItemBackground"-->
+            <!--            android:layout_width="150dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:text="Maps"-->
+            <!--            android:elevation="10dp"-->
+            <!--            android:drawableLeft="@drawable/ic_search"-->
+            <!--            android:background="@drawable/btn_float_right"-->
+            <!--            />-->
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

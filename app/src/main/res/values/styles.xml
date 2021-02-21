@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#e74c3c</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="main" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#e74c3c</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="nyoba" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/header</item>
+        <item name="colorPrimaryDark">#e74c3c</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fefefe"
+    android:layout_marginBottom="8dp">
+
+
+
+    <ImageView
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/image_example"
+        android:layout_margin="28dp"
+        android:id="@+id/image_single_view"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/textView_single_view_provinsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yogyakarta"
+        android:textSize="15dp"
+        android:textColor="#fefefe"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/header"/>
+    <TextView
+        android:id="@+id/textView_single_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Candi Ratu Boko"
+        android:textSize="25dp"
+        android:textColor="#fefefe"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/header"/>
+</RelativeLayout>
